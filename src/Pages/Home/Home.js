@@ -6,22 +6,20 @@ import heroImage from '../../Images/MUI_project_test_4.png';
 const Home = () => {
   const classes = useStyle();
   return (
-    <div>    
-            <Box component="section">
+    <div>              
                 <Container maxWidth='xl'>
                   <Box className={classes.heroDiv}>
                     <Box className={classes.textDiv}>
-                      <Typography variant="h1">Multimedia Courses</Typography>
+                      <Typography variant="h1">Development Courses</Typography>
                       <Typography >Scope and Career opportunities</Typography>
-                      <Typography >Career opportunities</Typography>
+                      <Typography >With certification</Typography>
                      
                     </Box>
                     <Box className={classes.textDiv}>
                       <img src={heroImage} alt='hero-image'/>
                     </Box>
                   </Box>
-                </Container>
-            </Box>       
+                </Container>       
     </div>
   )
 }

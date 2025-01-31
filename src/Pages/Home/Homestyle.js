@@ -22,12 +22,15 @@ const useStyle = makeStyles((theme) => ({
             fontWeight: 'bold',
             fontSize: '70px',
             [theme.breakpoints.down('md')]:{
-                 fontSize: '60px',
+                 fontSize: '40px',
               },
         },
         '& p.MuiTypography-body1': {
             color: 'grey',
-            fontSize: '30px !important',
+            fontSize: '20px !important',
+            fontFamily: 'Lexend Giga',
+            fontWeight: 'bold',
+            textTransform: 'uppercase',
         },
         [theme.breakpoints.down('sm')]:{
             width: '100%', 
